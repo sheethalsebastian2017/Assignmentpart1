@@ -4,7 +4,8 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   // test
-  res.render('index', { title: 'Foobar' });
+  res.render('index', { title: 'My Portfoliyo Site' });
+
 });
 
 const pages = [
