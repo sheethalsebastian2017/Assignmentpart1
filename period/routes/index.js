@@ -1,4 +1,9 @@
-var express = require('express');
+/*File Name; index.js
+  Author; Sheethal Sebastian
+  Website Name; portfolio site
+  Description; Site structure
+  */
+ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
@@ -39,7 +44,7 @@ const pages = [
   route: 'Services page',
   name: 'Services',
   list1: 'Android app services',
-  list2: 'Well knownledge about bootstrap',
+  list2: 'Styling using bootstrap',
   list3: 'Database based services',
   list4: 'Web applications that gracefully adapt to any device'
  },
