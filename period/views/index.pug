@@ -1,5 +1,31 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+ h1 WELCOME
+  br
+  br
+  p I am Sheethal Sebastian. 
+  a.btn.btn-primary.btn-lg(href="/About Me") More about me
+
+  .container
+    .row
+      
+      .col-md-4
+              h2 My Projects
+              p The projects that I had done.
+              a.btn.btn-primary(href='/Project page') My Projects
+
+      .col-md-4
+              h2 Services
+              p The services we offer.
+              a.btn.btn-primary(href='/Services page') Sevices
+
+      .col-md-4
+              h2 Contact Details
+              p Here is my contact details.
+              a.btn.btn-primary(href='/Contact Me') View Details
+    
+      
+
+
